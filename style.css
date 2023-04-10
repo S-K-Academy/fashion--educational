@@ -134,3 +134,19 @@
 .main-footer__img {
     width: 150px;
 }
+
+.main-footer__text {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.main-footer__list {
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer__item {
+    padding-left: 10px;
+}
