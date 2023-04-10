@@ -73,3 +73,48 @@
     font-weight: 500;
     margin: 20px;
 }
+
+.catalogue {
+    width: 100%;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+.catalogue__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalogue__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.product__img {
+    width: 380px;
+}
+.product__title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+}
+.product__text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #7F7F7F;
+}
